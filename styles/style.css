@@ -1,1 +1,20 @@
-/*# sourceMappingURL=style.css.map */
+html, body {
+  font-family: "roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00337C;
+}/*# sourceMappingURL=style.css.map */
