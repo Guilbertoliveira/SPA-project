@@ -17,4 +17,51 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
   color: #00337C;
+}
+nav ul li a:hover {
+  color: #a8308a;
+}
+
+.banner {
+  background-image: url("../../imagens/banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 90%;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #03C988;
+  opacity: 80%;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #00337C;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #a8308a;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #a8308a;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

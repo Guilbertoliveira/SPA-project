@@ -12,6 +12,9 @@ nav {
                 text-transform: uppercase;
                 font-weight: bold;
                 color: $cor-principal;
+                &:hover {
+                    color: $cor-secundaria;
+                }
             }
         }
     }

@@ -1,0 +1,32 @@
+@import '../abstract/_variables.scss';
+
+
+@mixin funcaoteste($tamanho, $cor) {
+    font-size: $tamanho;
+    color: $cor;
+}
+
+.banner {
+    background-image: url('../../imagens/banner.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+    .inner-banner {
+        padding: 3rem;
+        background-color: $cor-terciaria;
+        opacity: 80%;
+        border-radius: 45px;
+        h1 {
+            @include funcaoteste($tamanho-do-texto, $cor-principal);
+        }
+        h2 {
+            @include funcaoteste($tamanho-do-texto / 2, $cor-secundaria);
+        }
+    }
+
+}
