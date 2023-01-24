@@ -21,6 +21,28 @@ nav ul li a {
 nav ul li a:hover {
   color: #a8308a;
 }
+nav ul li .teste__botao:checked ~ .menu-nav {
+  display: block;
+}
+nav ul li .teste__botao {
+  display: none;
+}
+nav ul li .menu-nav {
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+nav ul li .menu-nav ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+nav ul li .menu-nav ul li {
+  text-align: right;
+  padding: 20px 40px;
+  text-align: start;
+  background-color: white;
+}
 
 .banner {
   background-image: url("../../imagens/banner.jpeg");
@@ -70,7 +92,7 @@ nav ul li a:hover {
   justify-content: space-evenly;
 }
 #servicos .cards .card {
-  width: 548px;
+  width: 500px;
   text-align: center;
 }
 #servicos .cards .card .img-container {
@@ -79,4 +101,29 @@ nav ul li a:hover {
 }
 #servicos .cards .card .img-container img {
   width: 100%;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 10px 0px;
+  color: #00337C;
+}
+#servicos .cards .card p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #a8308a;
+  line-height: 1.5rem;
+}
+
+#cupom {
+  background-color: #03C988;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #00337C;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

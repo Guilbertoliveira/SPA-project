@@ -16,6 +16,36 @@ nav {
                     color: $cor-secundaria;
                 }
             }
+
+            .teste__botao:checked ~ .menu-nav{
+                display: block;
+            }
+
+            .teste__botao {
+                display: none;
+            }
+
+            .menu-nav {
+                position: relative;
+                display: none;
+                z-index: 1;
+    
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;                   
+
+                    li {
+                        text-align: right;
+                        padding: 20px 40px;
+                        text-align: start;
+                        background-color: white;
+                    }
+                }
+                   
+                
+            }
         }
     }
 
