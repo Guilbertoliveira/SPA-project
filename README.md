@@ -1,7 +1,9 @@
 
 <p align="center"><img src="https://github.com/Guilbertoliveira/SPA-project/blob/main/imagens/icone.svg" width="80" heigh="40"></p>
 <h1 align="center">SPA Project</h1>
+<p align="center">Single page using HTML5 + CSS + SCSS + SASS</p>
 
+<h2>:hammer:Status project:hammer:</h2>
 Project using SASS techniques, process in the beginning
 
 <h2>Technologies used</h2>
