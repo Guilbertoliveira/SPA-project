@@ -17,11 +17,20 @@ Project using SASS techniques, process in the beginning
 </p>
 
 <h2>SASS Instructions</h2>
+<ul>
+<li>1 - Install the Live Sass Compiler extension</li>
+<li>2 - Activate it (enable)</li>
+<li>3 - At the bottom right click on Watch Sass for the code to be compiled.</li>
+Note: To work with the .SASS file, you need the SASS extension, after that change the lower right part to SASS in the Live Sass Compiler</p></ul>
+
+
 <h2>Extensions used</h2>
-<p>Extensions added by visual code</p>
+<p>Extensions added by visual code
 <p>    
 <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" width="55" title="Sass (Indentend Sass Syntax)"/>
 <img align="center" src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/live-sass/3.0.0/1531332580258/Microsoft.VisualStudio.Services.Icons.Default" height="40" width="50" title="Live Sass Compiler"/>
+<img align="center" src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default" height="40" width="50" title="Live Sass Compiler"/>
+
  </p>
 <h2>Desktop version</h2>
 
