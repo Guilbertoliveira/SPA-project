@@ -7,6 +7,15 @@
 Project using SASS techniques, process in the beginning
 
 <h2>Technologies used</h2>
+<p>
+    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="40" width="55" title="HTML5"/>
+    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="40" width="55" title="CSS3"/>
+    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="55" title="Figma"/>
+    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" width="55" title="Visual Code"/> 
+    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" width="55" title="Sass (Indentend Sass Syntax)"/>
+
+</p>
+
 <h2>SASS Instructions</h2>
 <h2>Extensions used</h2>
 <p>Extensions added by visual code</p>
