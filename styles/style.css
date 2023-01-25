@@ -106,8 +106,7 @@ nav ul li .menu-nav ul li {
   border-radius: 5px;
 }
 #servicos .cards .card .img-container img:hover {
-  padding: 20px;
-  margin: 10px;
+  box-shadow: 1px 1px 5px 1px #a8308a;
 }
 #servicos .cards .card h5 {
   font-size: 2rem;
