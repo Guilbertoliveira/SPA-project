@@ -60,6 +60,8 @@ nav ul li .menu-nav ul li {
   background-color: #03C988;
   opacity: 80%;
   border-radius: 45px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 .banner .inner-banner h1 {
   font-size: 3rem;
@@ -126,4 +128,39 @@ nav ul li .menu-nav ul li {
 #cupom .texto h2 {
   margin: 2rem;
   font-size: 1.5rem;
+}
+#cupom .input {
+  margin: 10px auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border: transparent;
+  height: 20px;
+  border: none;
+  width: 540px;
+  outline: none;
+  font-size: 18px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #00337C;
+  outline: none;
+}
+#cupom button {
+  outline: none;
+  height: 30px;
+  width: 150px;
+  background-color: #00337C;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  border: 0.2px solid #ffffff;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#cupom button:hover {
+  color: #03C988;
 }/*# sourceMappingURL=style.css.map */
