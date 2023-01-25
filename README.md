@@ -1,4 +1,5 @@
-# SPA-project
+<h1 align="center">SPA project</h1>
+
 Project using SASS techniques, process in the beginning
 
 <h2>Technologies used</h2>
