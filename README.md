@@ -1,4 +1,6 @@
-<h1 align="center">SPA project</h1>
+
+<p align="center"><img src="https://github.com/Guilbertoliveira/SPA-project/blob/main/imagens/icone.svg" width="80" heigh="40"></p>
+<h1 align="center">SPA Project</h1>
 
 Project using SASS techniques, process in the beginning
 
