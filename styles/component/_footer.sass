@@ -4,14 +4,13 @@
     @if $lado == left
          background-image: linear-gradient(to left, $cores...)
     @else 
-        background: red
+        background: none
     
 
 footer
     text-align: center
-    font-size: $tamanho-do-texto / 2
-    border-top: 2px solid $cor-principal
+    font-size: 18px
     padding: 1rem 0.5rem 1rem 1rem
-    @include bg-cores(left, $cor-principal, $cor-secundaria, $cor-terciaria, $cor-principal)
+    @include bg-cores(right, $cor-principal, $cor-terciaria, $cor-terciaria, $cor-principal)
     i
         color: red

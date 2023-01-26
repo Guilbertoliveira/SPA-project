@@ -2,17 +2,18 @@
 
 .sobre {
     text-align: center;
-    background-color: $cor-terciaria;
     img {
-        border: 1px solid black;
         margin-top: 10px;
         border-radius: 10px;
+        box-shadow: 1px 1px 10px 1px $cor-secundaria;
     }
     .detalhes {
         color: $cor-secundaria;
-        font-size: 1.2rem;
-        font-weight: 300;
+        font-size: 20px;
+        font-weight: 400;
         line-height: 30px;
+        font-family: $font-personalizada-secundaria;
+        margin-top: 40px;
 
     }
     padding-bottom: 10px;
