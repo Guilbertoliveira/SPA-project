@@ -1,0 +1,19 @@
+@import '../abstract/variables';
+
+.sobre {
+    text-align: center;
+    background-color: $cor-terciaria;
+    img {
+        border: 1px solid black;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .detalhes {
+        color: $cor-secundaria;
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 30px;
+
+    }
+    padding-bottom: 10px;
+}
