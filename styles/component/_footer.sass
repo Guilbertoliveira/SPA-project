@@ -8,9 +8,28 @@
     
 
 footer
-    text-align: center
+    display: flex
+    justify-content: space-evenly
     font-size: 18px
+    line-height: 30px
     padding: 1rem 0.5rem 1rem 1rem
-    @include bg-cores(right, $cor-principal, $cor-terciaria, $cor-terciaria, $cor-principal)
+    font-family: $fonte-personalizada
+    color: $cor-secundaria
+
+    @include bg-cores(right, $cor-principal, $cor-terciaria, $cor-terciaria, $cor-principal) //apenas um teste
     i
         color: red
+        
+    .empresas
+        display: flex
+        flex-direction: column
+        li
+            display: flex
+            margin: 10px
+            p
+                margin-left: 10px
+    
+    .container-footer
+        padding-left: 10px
+        border-left: 1px solid $cor-secundaria
+

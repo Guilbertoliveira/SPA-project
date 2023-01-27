@@ -19,7 +19,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/style.css">
+   
 </head>
 
 <body>
@@ -84,6 +86,26 @@
             </div>
         </section>
 
+        <section class="carrosel">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="imagens/interior-1.jpeg" alt="Livro sobre apachekafka"></div>
+                    <div class="swiper-slide"><img src="imagens/interior-2.jpeg" alt="Livro sobre Front-end"></div>
+                    <div class="swiper-slide"><img src="imagens/interior-3.jpeg" alt="Livro sobre React" ></div>
+                    <div class="swiper-slide"><img src="imagens/pexels-elina-fairytale-3865712.jpg" alt="Livro sobre React" ></div>
+                    <div class="swiper-slide"><img src="imagens/pexels-jean-van-der-meulen-1543442.jpg" alt="Livro sobre React" ></div>
+                    <div class="swiper-slide"><img src="imagens/pexels-john-tekeridis-3212179.jpg" alt="Livro sobre React" ></div>
+                    <div class="swiper-slide"><img src="imagens/pexels-jonathan-borba-3101547.jpg" alt="Livro sobre React" ></div>
+                    <div class="swiper-slide"><img src="imagens/pexels-karolina-grabowska-4202325.jpg" alt="Livro sobre React" ></div>
+                </div>
+
+            
+   
+            
+            </div>
+        </section>
 
         <section class="sobre">
             <div>
@@ -111,8 +133,41 @@
         </section>          
     </main>
     <footer>
-        Estilizado com Sass e com <i class="fas fa-heart"></i>
+        <ul class="empresas container-footer">
+            <p>Empresas companheiras</p>
+            <li><img src="./imagens/AluraEmpresas.png"><p>Alura Empresas</p></li>
+            <li><img src="./imagens/AluraLatam.png"><p>Alura Latam</p></li>
+            <li><img src="./imagens/AluraLingua.png"><p>Alura Lingua</p></li>
+        </ul>
+        <ul class="container-footer">
+            <p>Contatos</p>
+            <p>Telefone: (11)8888-8888</p>
+            <p>Whatsapp: (11)98311-0298</p>
+            <p>spaalura@gmail.com</p>
+        </ul>
+        <p class="container-footer">Estilizado com Sass e com <i class="fas fa-heart"></i></p>
     </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+ 
+
+<script>
+    var swiper = new Swiper(".swiper", {
+        slidesPerView: "auto",
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 @import '../abstract/variables';
 
 #cupom{
-    background-color: $cor-terciaria;
+    background-color: rgb(230, 205, 235);
     padding: 3rem 4rem 4rem 4rem;
     text-align: center;
     .texto {
@@ -43,7 +43,7 @@
         letter-spacing: 1px;
         cursor: pointer;
         &:hover {
-            color: $cor-terciaria;
+            color: $cor-secundaria;
         }
     }
 }
