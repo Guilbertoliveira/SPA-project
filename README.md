@@ -1,6 +1,11 @@
 
 <p align="center"><img src="https://github.com/Guilbertoliveira/SPA-project/blob/main/imagens/icone.svg" width="80" heigh="40"></p>
 <h1 align="center">SPA Project</h1>
+<p align="center">
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Guilbertoliveira/SPAproject"/>
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Guilbertoliveira/SPAproject" />
+<img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/SPAproject" />
+</p>
 <p align="center">Single page using HTML5 + CSS + SCSS + SASS</p>
 
 <h2>:hammer:Status project:hammer:</h2>
