@@ -121,6 +121,11 @@ nav ul li .menu-nav ul li {
   line-height: 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  #servicos .cards {
+    flex-wrap: wrap;
+  }
+}
 #cupom {
   background-color: rgb(230, 205, 235);
   padding: 3rem 4rem 4rem 4rem;
@@ -248,4 +253,17 @@ footer .container-footer {
 
 .swiper-slide {
   width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .carrosel {
+    width: 70%;
+  }
+  .carrosel .swiper {
+    width: 100%;
+    margin: 50px;
+  }
+  .carrosel .swiper-slide {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

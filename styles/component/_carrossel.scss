@@ -44,3 +44,20 @@
     width: 50%;
   }
 
+
+  @media screen and (max-width: 480px) {
+    .carrosel {
+      width: 70%;
+   
+      .swiper {
+        width: 100%;
+        margin: 50px;
+
+      }
+      .swiper-slide {
+        width: 100%;
+      }
+    }  
+
+  }
+
