@@ -36,6 +36,15 @@ Note: To work with the .SASS file, you need the SASS extension, after that chang
 <img align="center" src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/live-sass/3.0.0/1531332580258/Microsoft.VisualStudio.Services.Icons.Default" height="40" width="50" title="Live Sass Compiler"/>
 <img align="center" src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default" height="40" width="50" title="Live Sass Compiler"/>
 
+
+<h2 id="versaomobile">Version Mobile</h2>
+<img src="https://user-images.githubusercontent.com/41201436/215305788-fdf752b9-6a9c-4f9f-a951-e39ceae50232.gif" alt="this slowpoke moves"  width="250" />
+
+<h2>Version Desktop</h2>
+<img src="https://user-images.githubusercontent.com/41201436/215305964-6f1a6040-6675-468a-b293-cf229e9d600d.gif" alt="this slowpoke moves"  width="750" height="550" />
+
+
  </p>
-<h2>Desktop version</h2>
+<h2>Vercel version</h2>
 <p><a href="https://spaproject-gamma.vercel.app/">vercel link</a></p>
+
