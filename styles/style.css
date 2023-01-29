@@ -9,6 +9,14 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+nav ul img {
+  display: block;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
 }
 nav ul li {
   padding: 1rem;
@@ -44,6 +52,14 @@ nav ul li .menu-nav ul li {
   background-color: rgb(217, 233, 246);
 }
 
+@media screen and (max-width: 480px) {
+  header nav ul img {
+    position: fixed;
+  }
+  header nav ul li {
+    padding-right: 0px;
+  }
+}
 .banner {
   background-image: url("../../imagens/banner.jpeg");
   background-repeat: no-repeat;
