@@ -38,7 +38,7 @@ Note: To work with the .SASS file, you need the SASS extension, after that chang
 
 
 <h2 id="versaomobile">Version Mobile</h2>
-<img src="https://user-images.githubusercontent.com/41201436/215305788-fdf752b9-6a9c-4f9f-a951-e39ceae50232.gif" alt="this slowpoke moves"  width="250" />
+<img src="https://user-images.githubusercontent.com/41201436/215636118-5f06e657-f525-4b87-ab5e-c1c4d528df4f.gif" alt="this slowpoke moves"  width="250" />
 
 <h2>Version Desktop</h2>
 <img src="https://user-images.githubusercontent.com/41201436/215305964-6f1a6040-6675-468a-b293-cf229e9d600d.gif" alt="this slowpoke moves"  width="750" height="550" />
